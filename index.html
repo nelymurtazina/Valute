@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Валюта</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="main">
+    <div class="Kurs">
+      <h3>Курс</h3>
+      <div class="kursdiv">
+       <p>Доллар к рублю = 78,40 </p>
+       <p>Евро к рублю = 90,14</p>
+       <p>Юань к рублю = 10,91</p>
+       <p>Лира к рублю = 1,98</p>
+      </div>
+    </div>
+
+    <div class="index">
+      <h2>Перевод валюты</h2>
+      <div>
+        <p>Доллар к рублю:</p>
+        <input type="number" id="numberInput" placeholder="Введите число">
+        <button onclick="getValue()">Получить значение</button>
+        <p id="result"></p>
+      </div>
+      <div>
+        <p>Евро к рублю:</p>
+        <input type="number" id="numberInputEvro" placeholder="Введите число">
+        <button onclick="getValueEvro()">Получить значение</button>
+        <p id="evro"></p>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

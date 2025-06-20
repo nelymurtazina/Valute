@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(164, 164, 228);
+}
+.main{
+  display: flex;
+  gap: 10px;
+  justify-items: center;
+
+}
+.Kurs{
+  background-color: rgb(238, 243, 246);
+  width: 300px;
+  border-radius: 5px;
+  justify-items: center;
+  padding: 20px;
+}
+.Kurs p{
+line-height: 0.5;
+}
+.kursdiv{
+  width: 180px;
+  padding: 0px 10px 10px 10px;
+}
+
+.index{
+  background-color: rgb(238, 243, 246);
+  width: 350px;
+  border-radius: 5px;
+  justify-items: center;
+}
+
