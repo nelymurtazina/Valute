@@ -2,17 +2,16 @@ body{
   background-color: rgb(164, 164, 228);
 }
 .main{
-  display: flex;
   gap: 10px;
   justify-items: center;
 
 }
 .Kurs{
   background-color: rgb(238, 243, 246);
-  width: 300px;
+  width: 200px;
   border-radius: 5px;
   justify-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 .Kurs p{
 line-height: 0.5;
@@ -23,9 +22,10 @@ line-height: 0.5;
 }
 
 .index{
+  margin-top: 10px;
   background-color: rgb(238, 243, 246);
   width: 350px;
   border-radius: 5px;
-  justify-items: center;
+  padding-left: 20px;
 }
 

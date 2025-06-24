@@ -19,19 +19,20 @@
     </div>
 
     <div class="index">
-      <h2>Перевод валюты</h2>
-      <div>
-        <p>Доллар к рублю:</p>
-        <input type="number" id="numberInput" placeholder="Введите число">
-        <button onclick="getValue()">Получить значение</button>
-        <p id="result"></p>
-      </div>
-      <div>
-        <p>Евро к рублю:</p>
-        <input type="number" id="numberInputEvro" placeholder="Введите число">
-        <button onclick="getValueEvro()">Получить значение</button>
-        <p id="evro"></p>
-      </div>
+      <h2>Перевод валют</h2>
+      <form action="">
+      <select name="valute" id="allValute">
+        <option value="">Выберите валюту</option>
+        <option value="dollar" id="dollar">Доллар к рублю</option>
+        <option value="evro" id="evro">Еврок к рублю</option>
+        <option value="uan" id="uan">Юань к рублю</option>
+        <option value="lira" id="lira">Лира к рублю</option>
+      </select>
+      </form>
+
+      <input type="number" placeholder="Введите число" id="GetInput">
+      <button id="GetButton">OK</button>
+      <p id="result"></p>
     </div>
 
 
